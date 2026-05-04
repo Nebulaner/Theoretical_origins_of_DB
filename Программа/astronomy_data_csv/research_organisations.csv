@@ -1,0 +1,201 @@
+ID_Organisation,Type,Country,Budget,Organisation
+RO_0001,Commercial,Mexico,38562597542.0,African Space Research Institute 77
+RO_0002,State,China,32678554136.0,International Space Research Institute 89
+RO_0003,State,Belgium,22215992290.0,International Planetary Society 61
+RO_0004,Commercial,Australia,10275143035.0,American Space Research Institute 39
+RO_0005,International,China,33124317053.0,European Space Center 54
+RO_0006,Foundation,China,25579483531.0,African Astronomical Observatory 37
+RO_0007,State,China,24887204290.0,African Astrophysics Lab 34
+RO_0008,Foundation,Argentina,48655999556.0,European Radio Astronomy Station 38
+RO_0009,Private,France,27407164117.0,National Cosmic Ray Laboratory 43
+RO_0010,Private,USA,637963689.0,International Astronomical Observatory 74
+RO_0011,Commercial,India,7457650061.0,International Astronomical Observatory 93
+RO_0012,Commercial,China,45239016808.0,American Astrophysics Lab 59
+RO_0013,Mixed,Mexico,23214135723.0,International Space Center 6
+RO_0014,Foundation,South Korea,18011053095.0,American Cosmic Research Center 55
+RO_0015,Commercial,Italy,4750376017.0,International Space Research Institute 18
+RO_0016,Commercial,Spain,16433376973.0,Asian Planetary Society 94
+RO_0017,State,Finland,40748306995.0,National Astronomical Observatory 52
+RO_0018,International,Puerto Rico,13592018621.0,Asian Cosmic Ray Laboratory 54
+RO_0019,Commercial,Spain,5653271291.0,American Space Research Institute 21
+RO_0020,State,Belgium,45561382450.0,Asian Cosmic Ray Laboratory 24
+RO_0021,Non-profit,Denmark,38958325147.0,African Space Research Institute 88
+RO_0022,Foundation,Canada,24154241278.0,Asian Astronomical Observatory 53
+RO_0023,International,France,3167270657.0,American Cosmic Research Center 2
+RO_0024,Commercial,Argentina,38376552150.0,African Astrophysics Lab 86
+RO_0025,Foundation,Ukraine,25955224401.0,American Astronomical Observatory 56
+RO_0026,Commercial,Brazil,24096742901.0,American Radio Astronomy Station 20
+RO_0027,Foundation,Germany,582737547.0,National Cosmic Ray Laboratory 64
+RO_0028,Foundation,Spain,3743724691.0,Asian Cosmic Research Center 31
+RO_0029,Mixed,South Africa,2518010551.0,National Radio Astronomy Station 52
+RO_0030,Foundation,Brazil,3941990372.0,Asian Cosmic Ray Laboratory 12
+RO_0031,Foundation,India,22353682462.0,International Cosmic Ray Laboratory 96
+RO_0032,Commercial,UK,5132614752.0,Asian Space Research Institute 72
+RO_0033,Non-profit,USA,41295524967.0,African Planetary Society 66
+RO_0034,Non-profit,Sweden,32729971880.0,Asian Cosmic Research Center 47
+RO_0035,Foundation,Germany,40829526035.0,Asian Cosmic Research Center 72
+RO_0036,Foundation,China,35833045077.0,European Cosmic Ray Laboratory 15
+RO_0037,State,India,110346291.0,European Planetary Society 71
+RO_0038,Non-profit,Finland,35104951615.0,International Space Center 64
+RO_0039,Private,Belgium,5348521795.0,African Astrophysics Lab 25
+RO_0040,State,Austria,10779867424.0,National Cosmic Research Center 14
+RO_0041,Foundation,Belgium,2325494845.0,American Astronomical Observatory 99
+RO_0042,International,Puerto Rico,32923005522.0,African Space Center 64
+RO_0043,State,Argentina,36810828409.0,African Radio Astronomy Station 75
+RO_0044,International,Namibia,39054184313.0,National Space Center 94
+RO_0045,Foundation,Canada,5178146279.0,American Cosmic Research Center 65
+RO_0046,International,Belgium,48975048260.0,American Astrophysics Lab 36
+RO_0047,International,Ukraine,48524597250.0,Asian Space Center 18
+RO_0048,International,Namibia,14946007291.0,American Cosmic Research Center 92
+RO_0049,Commercial,Sweden,10044853672.0,African Planetary Society 88
+RO_0050,Mixed,Canada,49066784144.0,American Space Center 65
+RO_0051,Non-profit,Poland,35517781181.0,European Cosmic Ray Laboratory 75
+RO_0052,Non-profit,Belgium,33712337155.0,African Planetary Society 55
+RO_0053,Foundation,USA,26136737945.0,International Radio Astronomy Station 19
+RO_0054,State,Germany,9995520912.0,National Planetary Society 88
+RO_0055,Mixed,Australia,41969171032.0,American Planetary Society 27
+RO_0056,Foundation,France,17934442526.0,Asian Astronomical Observatory 79
+RO_0057,Foundation,India,37120765587.0,African Radio Astronomy Station 31
+RO_0058,Non-profit,South Korea,34646957293.0,International Radio Astronomy Station 50
+RO_0059,International,Poland,48291677762.0,International Space Research Institute 96
+RO_0060,Mixed,Switzerland,31028274500.0,Asian Astrophysics Lab 82
+RO_0061,Commercial,Finland,37755507707.0,African Astrophysics Lab 93
+RO_0062,Private,South Korea,22441021713.0,American Astronomical Observatory 24
+RO_0063,Private,Namibia,5968130887.0,International Radio Astronomy Station 36
+RO_0064,Non-profit,Mexico,6503761473.0,African Planetary Society 1
+RO_0065,Mixed,Puerto Rico,35484609971.0,National Space Research Institute 20
+RO_0066,Mixed,Germany,38683160662.0,American Planetary Society 63
+RO_0067,Foundation,Norway,3644503334.0,American Cosmic Research Center 68
+RO_0068,Private,Netherlands,26030554063.0,African Space Center 54
+RO_0069,Non-profit,Austria,4597731724.0,National Astrophysics Lab 85
+RO_0070,Mixed,Ukraine,18040210834.0,National Cosmic Ray Laboratory 72
+RO_0071,Foundation,USA,5736540209.0,European Cosmic Ray Laboratory 31
+RO_0072,Commercial,Brazil,47944861355.0,American Cosmic Research Center 49
+RO_0073,Foundation,Italy,19294103801.0,African Planetary Society 4
+RO_0074,Non-profit,Finland,25715695950.0,African Cosmic Ray Laboratory 63
+RO_0075,State,South Korea,44914131304.0,National Cosmic Research Center 66
+RO_0076,State,China,8370156763.0,African Space Research Institute 81
+RO_0077,State,Sweden,33516921140.0,National Radio Astronomy Station 14
+RO_0078,Private,South Africa,32328234685.0,International Space Center 4
+RO_0079,International,Ukraine,1894796794.0,International Space Research Institute 23
+RO_0080,Foundation,Mexico,27904431224.0,African Astrophysics Lab 34
+RO_0081,International,Denmark,22556557624.0,Asian Radio Astronomy Station 41
+RO_0082,State,Denmark,33665099967.0,African Space Research Institute 83
+RO_0083,Commercial,Japan,37798151854.0,African Space Research Institute 90
+RO_0084,Foundation,Japan,17885328087.0,African Astronomical Observatory 38
+RO_0085,Foundation,Israel,30328488776.0,European Cosmic Ray Laboratory 49
+RO_0086,International,UK,23699646875.0,African Astrophysics Lab 18
+RO_0087,Commercial,Austria,39838623467.0,African Planetary Society 82
+RO_0088,Private,Israel,33864613631.0,American Cosmic Research Center 2
+RO_0089,Non-profit,Australia,6162196329.0,International Radio Astronomy Station 69
+RO_0090,Non-profit,Russia,15234905272.0,American Cosmic Research Center 28
+RO_0091,International,Namibia,7123184628.0,National Astrophysics Lab 79
+RO_0092,Foundation,Mexico,9716713604.0,National Space Research Institute 97
+RO_0093,Non-profit,Puerto Rico,32233903356.0,International Planetary Society 86
+RO_0094,State,Mexico,4910570968.0,American Cosmic Ray Laboratory 43
+RO_0095,Mixed,Canada,33564942641.0,National Astronomical Observatory 37
+RO_0096,Non-profit,Japan,45005979483.0,European Cosmic Ray Laboratory 58
+RO_0097,Mixed,Israel,34673059738.0,National Cosmic Research Center 41
+RO_0098,International,Spain,242091717.0,National Astrophysics Lab 92
+RO_0099,Commercial,South Africa,13834353411.0,European Space Center 87
+RO_0100,Commercial,Ukraine,43894352532.0,Asian Cosmic Ray Laboratory 46
+RO_0101,Foundation,Israel,24348825636.0,International Space Center 83
+RO_0102,Non-profit,Russia,42089728870.0,National Astrophysics Lab 34
+RO_0103,Commercial,Japan,36371404647.0,International Space Research Institute 75
+RO_0104,Non-profit,Austria,38460128145.0,National Space Research Institute 71
+RO_0105,Mixed,China,32695580010.0,National Cosmic Research Center 51
+RO_0106,Private,South Korea,6694496032.0,African Astronomical Observatory 51
+RO_0107,Mixed,Namibia,530078867.0,National Space Center 97
+RO_0108,Non-profit,Canada,22311299082.0,National Space Center 95
+RO_0109,Commercial,China,46958793326.0,International Astrophysics Lab 98
+RO_0110,International,India,3143526640.0,European Astrophysics Lab 6
+RO_0111,Commercial,Sweden,25894502547.0,European Radio Astronomy Station 61
+RO_0112,International,France,1995714977.0,American Cosmic Research Center 14
+RO_0113,Commercial,Argentina,31678532305.0,European Planetary Society 75
+RO_0114,Non-profit,Netherlands,18833290147.0,Asian Cosmic Research Center 76
+RO_0115,Commercial,Japan,25833386546.0,Asian Astrophysics Lab 67
+RO_0116,International,Norway,40861929643.0,European Cosmic Ray Laboratory 62
+RO_0117,Non-profit,USA,25092098305.0,National Cosmic Ray Laboratory 22
+RO_0118,Private,Japan,25727306387.0,European Astrophysics Lab 20
+RO_0119,Private,Spain,18111466099.0,American Astronomical Observatory 85
+RO_0120,Private,Belgium,40558725882.0,American Astronomical Observatory 62
+RO_0121,Commercial,China,23951318658.0,African Space Center 83
+RO_0122,Foundation,Belgium,1122790685.0,International Space Center 74
+RO_0123,Non-profit,Spain,6736635038.0,African Space Research Institute 74
+RO_0124,Private,Germany,8317485145.0,National Radio Astronomy Station 77
+RO_0125,Non-profit,UK,43925509893.0,American Planetary Society 11
+RO_0126,Private,Arizona,30326491633.0,Asian Cosmic Ray Laboratory 22
+RO_0127,Private,Belgium,30042135301.0,African Space Center 80
+RO_0128,Commercial,Namibia,13226402667.0,American Cosmic Research Center 59
+RO_0129,Non-profit,Japan,11491074452.0,Asian Space Center 14
+RO_0130,State,Switzerland,26135805795.0,African Radio Astronomy Station 20
+RO_0131,Non-profit,China,8871520505.0,African Space Research Institute 69
+RO_0132,Non-profit,Italy,4659951695.0,American Space Center 78
+RO_0133,Non-profit,USA,44848499158.0,American Radio Astronomy Station 67
+RO_0134,International,Finland,43741277624.0,American Radio Astronomy Station 30
+RO_0135,Foundation,China,39477884480.0,Asian Cosmic Research Center 76
+RO_0136,Foundation,China,21274757098.0,European Cosmic Ray Laboratory 99
+RO_0137,Private,Russia,14163691767.0,African Radio Astronomy Station 33
+RO_0138,Private,USA,35457587286.0,International Astronomical Observatory 67
+RO_0139,State,Denmark,32727478767.0,American Cosmic Research Center 53
+RO_0140,Mixed,China,7739351639.0,American Planetary Society 34
+RO_0141,Foundation,South Africa,28233729547.0,African Planetary Society 88
+RO_0142,International,Sweden,20661701301.0,African Cosmic Ray Laboratory 23
+RO_0143,Mixed,China,12689255383.0,European Cosmic Research Center 91
+RO_0144,International,Canada,42750018642.0,American Astronomical Observatory 96
+RO_0145,Private,Arizona,39155571463.0,National Astronomical Observatory 28
+RO_0146,Non-profit,Austria,39304163104.0,African Space Research Institute 21
+RO_0147,International,USA,40218565860.0,National Cosmic Ray Laboratory 77
+RO_0148,International,Russia,3204490778.0,National Cosmic Research Center 11
+RO_0149,Non-profit,France,36224873424.0,Asian Planetary Society 92
+RO_0150,Non-profit,Germany,47285820034.0,National Cosmic Ray Laboratory 57
+RO_0151,State,Switzerland,42528456532.0,African Planetary Society 25
+RO_0152,State,Namibia,25790923671.0,National Space Center 87
+RO_0153,State,Finland,11963211636.0,International Space Center 12
+RO_0154,Mixed,Austria,17656706604.0,Asian Radio Astronomy Station 76
+RO_0155,Private,Argentina,768818442.0,American Astronomical Observatory 12
+RO_0156,Non-profit,South Korea,36307072416.0,African Cosmic Research Center 45
+RO_0157,Foundation,South Africa,11315162500.0,National Cosmic Ray Laboratory 52
+RO_0158,Non-profit,USA,13055744730.0,Asian Astronomical Observatory 72
+RO_0159,State,Namibia,14712944097.0,International Planetary Society 69
+RO_0160,Foundation,Mexico,34709745978.0,Asian Cosmic Ray Laboratory 99
+RO_0161,Private,Ukraine,48061955646.0,Asian Cosmic Ray Laboratory 76
+RO_0162,Foundation,UK,24098767118.0,European Astronomical Observatory 49
+RO_0163,Commercial,India,33845810347.0,National Cosmic Research Center 53
+RO_0164,Mixed,Argentina,26782827544.0,American Planetary Society 32
+RO_0165,Mixed,Russia,19946832365.0,American Cosmic Research Center 10
+RO_0166,Non-profit,Netherlands,23828034427.0,European Astrophysics Lab 74
+RO_0167,Mixed,Netherlands,47355931894.0,American Astrophysics Lab 64
+RO_0168,Commercial,Switzerland,11743451166.0,National Planetary Society 27
+RO_0169,Private,Switzerland,41747106533.0,African Cosmic Research Center 20
+RO_0170,Foundation,China,5994364693.0,International Cosmic Ray Laboratory 79
+RO_0171,State,France,42400605783.0,European Cosmic Research Center 64
+RO_0172,Non-profit,South Africa,24540522178.0,African Planetary Society 51
+RO_0173,Private,Canada,2707881490.0,Asian Cosmic Ray Laboratory 70
+RO_0174,State,Namibia,17364774439.0,American Space Center 59
+RO_0175,State,Argentina,23003799467.0,American Space Research Institute 2
+RO_0176,Commercial,Sweden,18971710465.0,International Cosmic Research Center 47
+RO_0177,Non-profit,Mexico,9358028521.0,European Astrophysics Lab 35
+RO_0178,International,Ukraine,18296524594.0,Asian Radio Astronomy Station 27
+RO_0179,International,Finland,18254216772.0,Asian Planetary Society 58
+RO_0180,Private,Canada,48963632955.0,American Astrophysics Lab 13
+RO_0181,Commercial,South Africa,40204477007.0,African Radio Astronomy Station 49
+RO_0182,Private,Australia,40001972893.0,American Space Center 61
+RO_0183,Foundation,USA,8830775529.0,Asian Space Center 81
+RO_0184,Non-profit,Poland,39266754168.0,European Planetary Society 72
+RO_0185,Foundation,Germany,19920395892.0,American Space Center 8
+RO_0186,Private,Mexico,23827232948.0,American Astronomical Observatory 58
+RO_0187,Commercial,Ukraine,12988826216.0,European Planetary Society 45
+RO_0188,State,Belgium,6062313842.0,American Astrophysics Lab 74
+RO_0189,Non-profit,Netherlands,48968666965.0,European Cosmic Research Center 42
+RO_0190,Commercial,Namibia,24374943468.0,American Cosmic Ray Laboratory 11
+RO_0191,International,South Korea,23187872161.0,National Space Center 82
+RO_0192,Foundation,Ukraine,21091113484.0,African Radio Astronomy Station 10
+RO_0193,State,Spain,17181602567.0,European Cosmic Research Center 84
+RO_0194,Mixed,South Africa,30269445959.0,Asian Planetary Society 57
+RO_0195,Foundation,Finland,37394900976.0,African Cosmic Ray Laboratory 53
+RO_0196,Private,Netherlands,42710665128.0,National Astrophysics Lab 85
+RO_0197,Mixed,Russia,10528969288.0,Asian Astronomical Observatory 13
+RO_0198,State,China,27421912974.0,International Radio Astronomy Station 68
+RO_0199,Foundation,Russia,5196868237.0,African Space Center 11
+RO_0200,Commercial,Denmark,15468877992.0,National Planetary Society 57
