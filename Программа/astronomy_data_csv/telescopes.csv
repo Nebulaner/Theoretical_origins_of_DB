@@ -1,0 +1,501 @@
+Telescope,Type,ID_Organisation,Year,Spot,ID_Catalog
+ALMA-40,Optical,144,2022,Hawaii,486
+VLT-27,Infrared,156,2011,Arizona,439
+Hubble-27,Infrared,127,2022,Hawaii,475
+Fermi-42,Gravitational,39,1999,Australia,481
+VLT-81,Gravitational,381,1992,Argentina,33
+Keck-79,Gravitational,435,2001,Argentina,121
+Webb-67,Optical,331,2015,Canary Islands,411
+Hubble-79,Neutrino,401,2024,Space,403
+GTC-38,Solar,205,1990,Space,255
+FAST-30,Radio,RO_0061,2018,South Africa,455
+Subaru-31,Neutrino,471,1996,Canary Islands,112
+Chandra-77,Gamma-ray,RO_0153,1955,India,483
+Chandra-84,X-ray,198,1971,Namibia,137
+GTC-81,X-ray,202,1991,Antarctica,10
+Fermi-74,Gravitational,298,1988,Canary Islands,112
+LBT-67,Optical,165,1991,Australia,256
+LBT-12,Infrared,485,2019,Space,424
+Fermi-49,Gamma-ray,317,2020,South Africa,329
+Fermi-62,Gravitational,386,2015,India,88
+Fermi-96,Gravitational,366,1990,Hawaii,76
+FAST-99,Optical,98,1963,China,367
+VLT-54,Optical,405,1978,Tenerife,493
+LBT-64,Optical,RO_0171,1991,South Africa,158
+Chandra-53,UV,107,1992,Australia,321
+Webb-36,Infrared,226,2018,Arizona,39
+ALMA-41,Optical,RO_0123,1989,Hawaii,116
+GTC-84,Gravitational,175,1969,Tenerife,182
+Gemini-9,Gamma-ray,35,1960,Namibia,5
+Webb-86,Radio,RO_0091,1953,South Africa,18
+GTC-39,Gamma-ray,175,2019,Hawaii,215
+ALMA-41,Gravitational,36,2017,Hawaii,18
+GTC-94,Solar,232,1992,South Africa,52
+Subaru-63,Infrared,409,1974,Australia,363
+ALMA-46,UV,427,1997,Antarctica,283
+Keck-38,Neutrino,428,2021,Chile,354
+LBT-41,Gravitational,260,1995,India,256
+Keck-20,Optical,380,1955,Hawaii,352
+Webb-50,Optical,23,1967,Arizona,266
+ALMA-87,Solar,488,2008,Puerto Rico,222
+LBT-16,Infrared,49,1966,India,419
+FAST-52,X-ray,451,2007,South Africa,178
+Chandra-85,Neutrino,RO_0138,1988,Argentina,119
+Webb-88,X-ray,393,1998,Puerto Rico,451
+Webb-12,Solar,169,1995,Canary Islands,172
+Keck-18,X-ray,RO_0073,2000,Chile,442
+Subaru-84,Radio,RO_0050,2010,Namibia,300
+VLT-85,Neutrino,349,1981,Namibia,233
+GTC-17,Neutrino,363,1962,Canary Islands,40
+Chandra-67,Solar,147,1952,Puerto Rico,38
+VLT-68,Gamma-ray,488,2009,Namibia,284
+Chandra-39,Optical,455,2024,Australia,466
+Chandra-32,X-ray,281,1960,Hawaii,95
+VLT-53,Gamma-ray,417,1973,Namibia,419
+Gemini-42,Optical,385,2023,Arizona,234
+LBT-20,Optical,407,1984,Puerto Rico,158
+Hubble-92,UV,380,1952,Canary Islands,244
+Chandra-2,Radio,420,1950,South Africa,187
+FAST-96,Optical,285,2011,China,439
+FAST-86,Radio,136,1979,Puerto Rico,374
+LBT-23,Gravitational,481,1980,South Africa,251
+Fermi-67,UV,445,1982,Chile,320
+Fermi-45,X-ray,RO_0134,2024,Namibia,303
+Hubble-80,UV,291,2010,Hawaii,255
+LBT-57,Gamma-ray,99,2004,China,217
+FAST-37,Gamma-ray,RO_0039,2022,India,202
+Webb-89,UV,106,2005,Space,9
+Gemini-2,Gamma-ray,291,1976,South Africa,378
+Gemini-30,UV,109,1950,Space,214
+GTC-61,Optical,458,2005,Space,127
+LBT-88,Gamma-ray,376,1978,Space,17
+GTC-90,Neutrino,RO_0152,1974,Australia,45
+Chandra-20,Neutrino,283,1969,Argentina,44
+Keck-69,Radio,252,1975,Space,312
+ALMA-31,Gravitational,57,1965,Tenerife,281
+Hubble-70,Neutrino,361,1974,Puerto Rico,499
+ALMA-14,Infrared,428,1952,Space,476
+Keck-55,Neutrino,273,1993,Namibia,386
+Gemini-50,Radio,RO_0035,2022,Namibia,338
+ALMA-17,Optical,393,1969,Antarctica,431
+ALMA-69,Gravitational,468,2014,Chile,455
+GTC-4,Infrared,RO_0075,1968,South Africa,500
+VLT-97,Solar,357,1990,Chile,80
+Hubble-41,X-ray,RO_0052,1986,Antarctica,269
+Hubble-30,Optical,179,1995,Hawaii,177
+FAST-15,Solar,65,1993,Argentina,153
+Fermi-59,Infrared,195,1951,Tenerife,337
+ALMA-39,Radio,RO_0060,1996,Namibia,20
+FAST-9,Radio,213,2014,Canary Islands,430
+GTC-86,UV,69,1983,Arizona,127
+Chandra-38,Neutrino,410,1997,China,142
+Gemini-89,Gravitational,331,1988,Tenerife,363
+LBT-59,Solar,183,1950,Arizona,497
+Subaru-30,Gamma-ray,RO_0023,1999,Puerto Rico,109
+FAST-3,Infrared,112,2011,Arizona,408
+Webb-62,Gamma-ray,206,1967,Tenerife,216
+ALMA-93,Radio,493,1970,Tenerife,345
+Keck-47,UV,123,1987,South Africa,284
+Gemini-43,Optical,128,2019,Chile,300
+Subaru-73,Optical,RO_0127,1961,Space,477
+Webb-8,Infrared,388,1981,Antarctica,492
+Subaru-88,Optical,14,1963,India,299
+Hubble-58,X-ray,RO_0082,1984,China,388
+Gemini-32,Gamma-ray,1,1977,India,19
+Fermi-87,Optical,464,2010,Antarctica,446
+Webb-69,Neutrino,181,2012,Space,98
+ALMA-41,Optical,RO_0193,1997,China,485
+GTC-65,Infrared,RO_0182,1955,Chile,129
+ALMA-52,Gamma-ray,RO_0144,1976,India,324
+FAST-38,Infrared,153,1991,Puerto Rico,252
+Subaru-94,Gravitational,227,1951,Australia,439
+GTC-17,Radio,282,1991,Canary Islands,261
+Keck-26,X-ray,173,1961,Canary Islands,368
+Hubble-9,X-ray,RO_0063,1999,Namibia,264
+Keck-18,Solar,478,1972,Canary Islands,176
+Fermi-13,Radio,RO_0112,1986,Canary Islands,211
+Webb-37,Neutrino,336,1999,Chile,301
+FAST-72,Gravitational,154,1981,South Africa,174
+VLT-10,Gravitational,RO_0157,1982,Australia,448
+ALMA-91,Solar,RO_0115,1955,Australia,264
+Gemini-26,UV,402,1975,Australia,251
+Webb-56,Gravitational,RO_0160,2017,Space,55
+FAST-59,Radio,60,2019,Argentina,222
+Subaru-51,UV,267,1955,Arizona,186
+Hubble-7,Infrared,203,1997,Arizona,371
+ALMA-11,Gamma-ray,35,2010,Puerto Rico,57
+ALMA-19,Radio,24,1990,Australia,126
+Chandra-96,Radio,196,2006,Hawaii,260
+VLT-91,Gamma-ray,RO_0106,2012,Argentina,298
+Subaru-20,Infrared,RO_0126,1963,Space,368
+Gemini-6,Neutrino,457,2019,Antarctica,191
+GTC-65,UV,RO_0125,1960,Namibia,316
+Keck-66,Infrared,121,2009,Arizona,428
+Subaru-55,Optical,233,2018,Antarctica,121
+ALMA-63,Gravitational,441,1969,Arizona,141
+Fermi-11,Solar,122,1992,Namibia,332
+Hubble-9,Gravitational,422,1952,South Africa,7
+VLT-42,Optical,RO_0139,1951,Namibia,256
+Gemini-52,Radio,99,1982,Space,351
+FAST-56,Neutrino,21,1979,Australia,492
+GTC-60,Optical,35,2014,Chile,203
+VLT-62,Gamma-ray,RO_0189,2002,Tenerife,145
+Fermi-20,Infrared,RO_0179,1994,Space,329
+FAST-34,Neutrino,446,1971,Hawaii,289
+Gemini-74,X-ray,RO_0057,1977,Argentina,352
+Chandra-74,X-ray,14,1959,Arizona,260
+ALMA-73,Neutrino,63,2006,Hawaii,303
+Subaru-17,UV,495,1991,Hawaii,53
+FAST-10,Gamma-ray,303,1953,Antarctica,99
+ALMA-23,Gravitational,468,1990,Antarctica,324
+Fermi-57,X-ray,116,1963,Tenerife,25
+Webb-60,Solar,395,1950,Antarctica,94
+FAST-79,Radio,RO_0198,1966,Arizona,39
+Chandra-36,Optical,RO_0135,2015,Namibia,188
+Fermi-78,Radio,6,1979,India,451
+VLT-39,Gravitational,125,1957,Space,125
+VLT-40,UV,216,2023,Canary Islands,57
+GTC-61,Gamma-ray,133,1968,Hawaii,222
+Chandra-75,Gravitational,99,1960,South Africa,377
+LBT-62,Radio,204,1999,Antarctica,346
+FAST-86,Gravitational,RO_0170,1993,Canary Islands,424
+FAST-78,Infrared,RO_0054,1957,Arizona,455
+VLT-80,Solar,RO_0186,2019,Chile,134
+Gemini-10,Neutrino,RO_0152,1973,India,253
+Webb-28,Radio,95,1991,Argentina,264
+Keck-42,Optical,RO_0052,1987,Tenerife,109
+ALMA-86,Infrared,96,1965,Chile,49
+LBT-70,Infrared,RO_0051,2017,Argentina,402
+Keck-76,Radio,266,1994,Australia,451
+FAST-6,UV,290,1981,Canary Islands,91
+Webb-20,UV,RO_0104,1995,Namibia,416
+ALMA-25,Infrared,283,1987,Argentina,111
+LBT-79,Infrared,179,1957,Puerto Rico,264
+GTC-83,Radio,26,1992,Argentina,457
+Hubble-71,Gravitational,RO_0179,1984,Argentina,377
+Hubble-96,Gravitational,85,2001,Namibia,237
+Keck-32,X-ray,412,2024,Canary Islands,191
+Webb-95,Optical,476,1977,China,192
+Webb-41,X-ray,296,1977,South Africa,218
+FAST-76,Gamma-ray,74,1994,Australia,458
+GTC-1,Gamma-ray,429,1962,Puerto Rico,142
+Chandra-41,Solar,201,2012,China,391
+Hubble-16,Gravitational,497,1962,Argentina,167
+Webb-30,Optical,6,2000,Canary Islands,152
+Hubble-76,Solar,99,1972,Namibia,474
+Subaru-74,Infrared,387,1969,Namibia,466
+VLT-98,Solar,113,2019,Tenerife,57
+Chandra-57,Neutrino,454,2002,Australia,474
+Keck-26,Neutrino,RO_0044,2014,South Africa,19
+FAST-73,Optical,RO_0157,1989,Puerto Rico,192
+Chandra-21,X-ray,10,1981,Antarctica,107
+LBT-89,UV,RO_0148,1952,Hawaii,92
+VLT-22,Optical,52,1963,Tenerife,60
+LBT-21,Gamma-ray,RO_0130,1980,Australia,55
+GTC-46,Gravitational,155,1967,Hawaii,444
+Keck-11,UV,78,1963,Space,283
+Gemini-1,Gravitational,RO_0080,1993,Space,199
+Fermi-48,X-ray,351,2000,Antarctica,49
+LBT-35,Optical,25,2020,Argentina,51
+ALMA-87,UV,133,2020,Arizona,6
+Fermi-69,Infrared,90,2011,Argentina,158
+ALMA-63,Optical,493,1982,India,343
+LBT-43,Infrared,143,1987,India,478
+Subaru-34,Gravitational,RO_0094,2006,Arizona,456
+VLT-73,Radio,388,1953,Space,230
+Fermi-73,Gamma-ray,85,2003,South Africa,348
+Gemini-60,Optical,75,1994,Chile,475
+Subaru-45,Optical,428,1981,Tenerife,442
+Chandra-39,Radio,RO_0150,2005,Puerto Rico,270
+GTC-43,X-ray,27,1985,Australia,161
+Fermi-60,UV,RO_0161,2024,China,480
+GTC-9,Gravitational,RO_0144,2001,Canary Islands,431
+Keck-82,Gamma-ray,215,1975,South Africa,5
+Gemini-84,UV,92,1964,Chile,463
+FAST-34,Gravitational,RO_0167,1962,Arizona,74
+Fermi-96,Gravitational,377,1972,Space,174
+Fermi-86,Solar,8,1992,Argentina,295
+Subaru-74,X-ray,150,1958,India,237
+ALMA-52,UV,404,1976,Namibia,272
+Keck-48,Solar,RO_0114,1955,Chile,396
+Gemini-57,Solar,94,2006,Argentina,212
+Gemini-12,X-ray,RO_0019,2022,Antarctica,447
+Webb-3,Infrared,RO_0163,1955,China,256
+LBT-40,Optical,180,2018,India,299
+VLT-54,UV,RO_0161,1952,Space,378
+GTC-32,Radio,RO_0125,1952,China,162
+FAST-72,Gravitational,163,1990,China,139
+Keck-24,Optical,RO_0025,1998,South Africa,65
+Hubble-59,Neutrino,300,2016,Arizona,25
+Keck-46,Solar,238,2010,Antarctica,261
+Webb-12,Solar,RO_0103,1956,Namibia,312
+FAST-20,Neutrino,249,1972,Namibia,257
+Chandra-48,Neutrino,473,2025,Puerto Rico,137
+Gemini-33,Optical,RO_0035,1996,Chile,385
+Keck-68,Solar,89,2017,Chile,225
+Keck-53,Optical,387,1993,Puerto Rico,223
+Gemini-21,Solar,482,1968,China,92
+ALMA-14,Neutrino,RO_0014,2001,China,473
+Hubble-34,Infrared,RO_0040,2018,Puerto Rico,262
+GTC-77,Infrared,336,2022,China,203
+FAST-89,Infrared,304,1965,India,184
+ALMA-16,UV,485,1958,Puerto Rico,224
+Keck-52,Solar,474,1972,Tenerife,274
+Subaru-18,UV,498,2004,Tenerife,392
+Chandra-43,UV,68,1983,Arizona,468
+Chandra-78,Gravitational,235,1958,Australia,103
+Hubble-77,UV,235,1970,Hawaii,278
+Subaru-31,Radio,RO_0163,1996,Namibia,128
+Hubble-42,Gravitational,390,1997,Australia,279
+VLT-30,Gravitational,RO_0076,1955,Arizona,256
+Webb-78,Radio,RO_0005,1986,Chile,187
+Webb-66,Solar,RO_0139,2009,Argentina,169
+GTC-53,Solar,RO_0185,2010,Hawaii,427
+FAST-84,UV,129,1988,Antarctica,418
+GTC-6,Neutrino,360,2016,Arizona,56
+VLT-84,X-ray,281,2010,Australia,341
+GTC-75,UV,44,1956,Australia,157
+Webb-70,UV,RO_0148,1957,Space,379
+Fermi-5,X-ray,9,2013,Tenerife,336
+LBT-77,Gravitational,315,1980,Tenerife,193
+VLT-36,Gravitational,410,1960,South Africa,369
+Fermi-41,Gravitational,RO_0023,2010,India,416
+VLT-38,Optical,RO_0144,1982,China,202
+Subaru-95,X-ray,RO_0056,1983,Hawaii,103
+FAST-3,Neutrino,RO_0035,2010,Space,118
+GTC-25,Optical,90,1985,Hawaii,58
+Gemini-20,Solar,RO_0147,1957,Arizona,355
+Hubble-50,Gravitational,172,1960,Puerto Rico,318
+FAST-54,Gamma-ray,RO_0160,2001,Puerto Rico,11
+Chandra-64,Gamma-ray,173,1950,South Africa,17
+GTC-8,Gravitational,39,1951,Space,33
+Gemini-84,Infrared,429,1950,Argentina,205
+Keck-8,Radio,125,1951,Tenerife,197
+Gemini-72,Neutrino,5,1955,India,28
+ALMA-21,X-ray,154,2002,Argentina,327
+Fermi-29,Gamma-ray,358,2001,Australia,174
+Hubble-82,Gamma-ray,35,2011,India,349
+ALMA-19,UV,RO_0113,1968,Chile,8
+Keck-9,X-ray,RO_0140,1991,Tenerife,67
+Hubble-61,Solar,269,1981,South Africa,291
+VLT-20,UV,431,1965,Namibia,261
+VLT-89,Neutrino,41,1965,Tenerife,176
+FAST-62,Gamma-ray,319,1960,Namibia,216
+Fermi-20,Radio,294,1991,Argentina,289
+Gemini-40,Gravitational,RO_0142,1984,Puerto Rico,331
+Webb-55,X-ray,432,1962,Puerto Rico,347
+Chandra-49,Gravitational,175,2001,China,434
+Webb-99,Gamma-ray,RO_0186,1964,South Africa,169
+GTC-4,Radio,RO_0151,1987,South Africa,448
+FAST-2,Optical,289,1952,Antarctica,49
+FAST-25,X-ray,469,1992,India,485
+Webb-14,Infrared,RO_0040,2003,Argentina,40
+VLT-16,Gravitational,RO_0029,1976,India,174
+Chandra-58,Optical,93,2003,Space,50
+Fermi-12,UV,RO_0088,1988,Chile,178
+LBT-32,UV,141,1996,Canary Islands,231
+Hubble-79,Gamma-ray,160,1953,Antarctica,363
+Fermi-46,UV,RO_0168,1985,Australia,2
+Gemini-2,UV,RO_0074,1969,Namibia,340
+Gemini-18,Radio,RO_0161,1992,Tenerife,157
+Subaru-99,Solar,194,1951,China,121
+Subaru-90,Neutrino,490,1967,Namibia,421
+Chandra-15,Gravitational,RO_0013,1979,Canary Islands,288
+GTC-76,UV,250,1988,Antarctica,301
+Webb-5,Infrared,398,1978,India,280
+LBT-54,Gamma-ray,RO_0107,1978,South Africa,151
+ALMA-76,Neutrino,13,2007,South Africa,443
+Chandra-38,UV,196,2018,China,442
+Keck-20,X-ray,RO_0163,1984,Space,290
+Webb-58,Optical,RO_0015,2022,South Africa,463
+FAST-40,X-ray,RO_0039,1968,Arizona,255
+Gemini-20,Gravitational,163,2006,South Africa,298
+Gemini-58,Solar,RO_0038,1955,Puerto Rico,295
+Gemini-98,Radio,47,1995,Hawaii,355
+VLT-14,Gamma-ray,448,2024,Antarctica,81
+Subaru-80,X-ray,209,2014,Arizona,381
+GTC-28,Gamma-ray,367,2014,Puerto Rico,87
+VLT-50,X-ray,RO_0170,1998,Chile,269
+Chandra-96,Gravitational,295,2025,China,38
+Webb-82,Gamma-ray,382,2012,South Africa,271
+LBT-59,X-ray,RO_0045,2002,China,270
+Hubble-47,Optical,470,1988,South Africa,50
+Webb-43,Infrared,301,2009,Antarctica,39
+Gemini-95,Neutrino,87,1952,Namibia,20
+Hubble-98,X-ray,2,1956,Canary Islands,175
+GTC-18,Neutrino,333,1962,Puerto Rico,326
+Keck-68,Solar,228,1966,Australia,320
+ALMA-71,Neutrino,RO_0017,1980,Arizona,468
+Hubble-92,Optical,152,2014,Australia,369
+GTC-90,UV,RO_0161,1995,Argentina,279
+Keck-65,Radio,303,2001,Namibia,52
+FAST-95,Infrared,481,1953,Hawaii,285
+Subaru-15,X-ray,RO_0027,2021,Puerto Rico,400
+Keck-15,Neutrino,RO_0191,1966,Namibia,278
+VLT-52,Optical,445,1998,Arizona,435
+Gemini-65,Gamma-ray,258,2019,Puerto Rico,300
+ALMA-79,X-ray,90,2007,Canary Islands,102
+Keck-17,Optical,418,1972,Australia,363
+Gemini-4,Neutrino,165,2008,Australia,112
+Chandra-66,UV,394,2023,Canary Islands,439
+Keck-65,Neutrino,272,1981,Tenerife,149
+Keck-7,UV,18,1970,Australia,29
+Subaru-1,UV,43,2021,Namibia,108
+LBT-90,Gamma-ray,357,1957,Canary Islands,439
+FAST-30,UV,13,1972,Namibia,197
+Subaru-23,UV,RO_0162,1970,Arizona,35
+FAST-48,Radio,376,1982,Hawaii,268
+Gemini-84,Infrared,183,2014,Puerto Rico,17
+Hubble-19,Radio,223,2004,Tenerife,334
+Webb-28,Infrared,214,1969,Canary Islands,301
+GTC-65,Neutrino,287,1987,South Africa,49
+Keck-19,Neutrino,431,1950,Antarctica,429
+FAST-69,Solar,440,1950,Puerto Rico,476
+LBT-52,Gamma-ray,296,1966,Tenerife,2
+FAST-5,Neutrino,RO_0001,1963,Canary Islands,481
+GTC-48,Infrared,241,1981,Hawaii,90
+Gemini-80,Gravitational,324,1964,Hawaii,261
+LBT-56,Optical,356,1984,Chile,103
+Webb-13,Infrared,387,1967,South Africa,399
+FAST-35,Gravitational,RO_0111,1985,Arizona,206
+LBT-64,Gamma-ray,396,1991,South Africa,13
+Chandra-58,UV,RO_0173,1958,India,137
+VLT-33,Infrared,345,1985,China,73
+GTC-41,Optical,RO_0049,1996,Argentina,385
+Webb-11,UV,314,2023,Australia,231
+LBT-48,Optical,304,2004,Antarctica,190
+VLT-33,Infrared,350,1988,Namibia,79
+Keck-98,Gravitational,RO_0076,1952,Namibia,117
+LBT-20,Solar,3,1971,India,246
+GTC-95,Gamma-ray,RO_0075,1953,Antarctica,166
+FAST-77,Solar,RO_0152,2020,Puerto Rico,343
+VLT-27,UV,167,1954,Hawaii,267
+Gemini-78,Neutrino,405,1961,Hawaii,27
+GTC-77,Neutrino,444,1975,Space,84
+Gemini-55,Solar,RO_0160,1994,Canary Islands,187
+LBT-85,Gravitational,79,2020,Antarctica,435
+Subaru-71,UV,476,1963,Namibia,227
+Keck-11,Gamma-ray,RO_0033,2001,China,275
+Keck-82,X-ray,RO_0070,1995,South Africa,62
+GTC-45,Radio,30,2024,Canary Islands,458
+ALMA-52,Solar,449,1980,Space,260
+Gemini-1,Gamma-ray,RO_0056,1950,China,48
+Keck-94,Neutrino,132,2013,Argentina,143
+Fermi-2,Optical,83,1965,Hawaii,188
+Fermi-54,X-ray,RO_0147,1965,Argentina,409
+Webb-4,Gravitational,274,2019,South Africa,175
+FAST-90,X-ray,RO_0118,1978,Antarctica,427
+Gemini-13,Infrared,257,1952,Hawaii,408
+ALMA-63,Solar,396,2024,Arizona,142
+Gemini-34,Solar,90,1992,India,55
+Hubble-15,Gamma-ray,328,1971,India,476
+FAST-84,Radio,467,1975,Argentina,5
+ALMA-25,Radio,72,1974,China,438
+FAST-42,Optical,RO_0078,1974,Hawaii,326
+Hubble-94,Solar,108,2011,Canary Islands,175
+LBT-45,Neutrino,126,2011,Puerto Rico,227
+Keck-15,Solar,392,1986,Space,458
+Webb-50,Infrared,329,2022,South Africa,101
+ALMA-47,Gamma-ray,466,2010,Chile,274
+LBT-87,Optical,RO_0014,1974,Puerto Rico,80
+Chandra-74,UV,440,1963,Arizona,370
+Gemini-77,Gravitational,206,2013,Namibia,162
+Hubble-14,Gamma-ray,RO_0067,1965,Tenerife,345
+Hubble-22,Neutrino,29,1980,Arizona,448
+ALMA-92,Solar,361,2010,Arizona,35
+LBT-81,Optical,369,1967,Antarctica,256
+Keck-25,Neutrino,354,1989,Canary Islands,463
+Chandra-40,Neutrino,494,2021,Namibia,29
+Webb-41,Infrared,442,1951,Puerto Rico,152
+Gemini-50,X-ray,345,2015,China,97
+Subaru-63,Gravitational,273,2007,India,58
+LBT-88,Solar,410,1991,India,329
+Webb-37,Gamma-ray,266,1995,Space,439
+VLT-23,X-ray,127,1969,Australia,325
+Gemini-83,Radio,262,1970,Puerto Rico,136
+Keck-88,UV,RO_0018,2022,Hawaii,185
+Subaru-49,UV,307,1992,Namibia,278
+Keck-62,X-ray,470,1973,Space,133
+Webb-56,Gravitational,RO_0101,1975,India,356
+ALMA-22,Gamma-ray,123,2017,Antarctica,164
+Hubble-38,Gravitational,RO_0102,1957,Space,199
+Hubble-51,Neutrino,14,2017,Argentina,254
+Fermi-17,Gamma-ray,32,2015,Chile,287
+VLT-28,Optical,32,2023,Chile,241
+VLT-30,Gravitational,330,1969,China,458
+Subaru-23,UV,RO_0006,1953,Antarctica,73
+LBT-52,Neutrino,162,1958,China,86
+Chandra-63,Radio,369,2007,Puerto Rico,119
+LBT-16,Neutrino,337,1980,Tenerife,208
+VLT-78,Neutrino,RO_0052,1998,Namibia,305
+Hubble-29,Solar,120,2017,Antarctica,144
+VLT-79,Solar,RO_0049,1971,Chile,412
+Subaru-66,X-ray,213,2002,India,38
+Subaru-44,Neutrino,111,2010,China,486
+VLT-2,Optical,199,1953,Namibia,189
+Fermi-40,Gamma-ray,84,1991,China,305
+Fermi-71,Neutrino,314,2016,Chile,337
+Gemini-59,UV,RO_0160,2018,Argentina,107
+GTC-88,X-ray,100,2019,Antarctica,336
+VLT-86,Optical,133,1961,South Africa,362
+FAST-31,Infrared,7,2018,Canary Islands,360
+Fermi-13,Solar,190,1968,China,241
+Subaru-37,Neutrino,239,1961,Hawaii,440
+Hubble-76,Gravitational,132,1957,Antarctica,151
+Gemini-15,Solar,98,1958,Canary Islands,128
+Fermi-23,Gravitational,RO_0063,1997,Puerto Rico,403
+GTC-8,Radio,382,2019,Argentina,452
+Subaru-98,Solar,484,1963,India,213
+Chandra-21,Solar,RO_0169,1980,Antarctica,361
+Hubble-22,Solar,431,2017,Space,406
+VLT-18,Neutrino,215,2022,Argentina,376
+Subaru-98,Solar,445,1999,Chile,295
+Hubble-74,Radio,209,2008,Australia,35
+Keck-70,X-ray,RO_0101,1959,Namibia,227
+Chandra-86,Solar,498,1977,Tenerife,496
+Chandra-6,Gravitational,180,1966,Argentina,443
+Hubble-92,Gamma-ray,RO_0006,1978,Space,49
+Subaru-17,Gamma-ray,RO_0090,1953,Antarctica,229
+ALMA-66,Gravitational,181,1985,Hawaii,445
+Gemini-28,X-ray,362,2003,Puerto Rico,76
+Hubble-61,Radio,RO_0161,2025,Space,56
+ALMA-91,Neutrino,229,1985,Argentina,478
+Keck-60,Infrared,178,1956,China,293
+Chandra-69,Optical,RO_0130,1953,Namibia,54
+Chandra-10,Neutrino,291,2019,Tenerife,304
+Gemini-53,Infrared,131,1952,Arizona,275
+Fermi-62,X-ray,420,1985,Canary Islands,321
+Gemini-77,Gamma-ray,66,1997,Chile,128
+Chandra-76,Gravitational,188,1957,Antarctica,70
+Subaru-82,Optical,72,2000,Argentina,392
+Fermi-48,Radio,372,1958,Puerto Rico,135
+FAST-57,Infrared,249,1986,Canary Islands,351
+Fermi-51,Solar,290,2006,India,270
+GTC-85,Gamma-ray,RO_0148,2005,South Africa,409
+GTC-1,X-ray,247,1995,Space,137
+Fermi-65,Optical,105,1991,Argentina,69
+FAST-52,UV,39,2000,Space,127
+Hubble-59,UV,RO_0014,1993,Arizona,312
+GTC-26,Solar,239,1966,Antarctica,422
+Keck-76,Radio,RO_0123,1983,Argentina,325
+Chandra-89,Neutrino,386,1980,Namibia,496
+ALMA-28,X-ray,RO_0113,2024,Tenerife,255
+Webb-23,X-ray,424,1978,Space,224
+Webb-78,X-ray,456,2009,Namibia,32
+Fermi-16,Gravitational,488,2018,Argentina,25
+GTC-11,Gravitational,477,1958,Arizona,451
+Fermi-84,X-ray,274,1961,Space,169
+Chandra-49,Neutrino,RO_0194,1971,Australia,66
+FAST-36,Infrared,36,2006,Antarctica,474
+Gemini-38,Infrared,RO_0149,2009,Hawaii,391
+FAST-86,Radio,197,2006,Antarctica,176
+Fermi-40,Gravitational,429,2006,Argentina,391
+Webb-34,X-ray,423,1985,China,295
+VLT-49,Radio,473,1990,India,483
+Hubble-65,Gravitational,RO_0142,2011,Argentina,497
+Hubble-8,Infrared,378,1963,China,285
+Keck-72,Radio,404,1955,Chile,385
+Chandra-32,X-ray,269,1987,Hawaii,436
+Webb-1,Infrared,179,1954,Hawaii,115
+Subaru-18,Radio,422,1953,Namibia,452
+Subaru-18,Infrared,RO_0041,1974,Puerto Rico,1

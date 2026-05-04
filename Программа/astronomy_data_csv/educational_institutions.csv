@@ -1,0 +1,501 @@
+ID_Organisation,Type,Country,Budget,Organisation
+1,University,Japan,47625120296.0,Polytechnic of Finland 33
+2,School,China,45201089985.0,College of France 47
+3,Polytechnic,Argentina,30163731272.0,Research Center of UK 4
+4,Academy,Austria,42627935654.0,University of India 46
+5,Academy,Japan,89926777246.0,Institute of Australia 5
+6,College,South Africa,62432125111.0,School of Poland 25
+7,School,Argentina,29490479697.0,School of South Africa 7
+8,Polytechnic,Italy,85279420937.0,Research Center of Sweden 28
+9,Academy,India,41381943304.0,Polytechnic of Puerto Rico 26
+10,Academy,China,31255522451.0,Institute of Mexico 24
+11,College,China,6714263680.0,Polytechnic of Russia 6
+12,Academy,China,74459152330.0,Institute of Canada 36
+13,University,Ukraine,67001656460.0,Academy of Norway 43
+14,Polytechnic,South Africa,86809346795.0,Research Center of Germany 19
+15,School,Israel,35165266923.0,School of Namibia 14
+16,College,China,22425262666.0,University of Norway 36
+17,Institute,Italy,76260800588.0,School of India 28
+18,Polytechnic,UK,60899882560.0,Research Center of South Africa 2
+19,College,South Africa,70270174588.0,Institute of Ukraine 23
+20,University,Netherlands,86986400791.0,School of Austria 5
+21,College,UK,9176676548.0,School of Sweden 25
+22,Academy,Puerto Rico,34090257281.0,Institute of Israel 47
+23,Institute,Russia,88334335110.0,College of Spain 49
+24,School,Germany,67397197093.0,Institute of Arizona 43
+25,Academy,India,60707993668.0,Academy of South Africa 14
+26,Polytechnic,Namibia,11382636994.0,Academy of Italy 19
+27,Research Center,India,52693883781.0,Institute of France 15
+28,Academy,Germany,769700903.0,Institute of Sweden 50
+29,College,Mexico,28945423675.0,University of USA 32
+30,Research Center,South Africa,17570304493.0,Academy of India 33
+31,School,Norway,7208477584.0,Polytechnic of France 28
+32,University,Puerto Rico,92116322288.0,Polytechnic of Poland 37
+33,Academy,Austria,70950186658.0,Academy of South Korea 8
+34,Academy,UK,96620002904.0,College of Puerto Rico 45
+35,Institute,Russia,43671741245.0,University of Brazil 28
+36,School,Austria,52396730338.0,Academy of Israel 48
+37,Institute,India,33307529181.0,College of Japan 33
+38,Research Center,Italy,53060951472.0,College of Norway 23
+39,Research Center,Australia,23627648626.0,College of Mexico 13
+40,College,Australia,76021769339.0,Research Center of Japan 12
+41,Polytechnic,India,46395842898.0,School of Arizona 44
+42,School,Poland,86424823236.0,Research Center of Poland 10
+43,Academy,Japan,46892639432.0,Research Center of Israel 18
+44,School,Germany,35194870320.0,University of Israel 30
+45,Academy,France,5689948193.0,Polytechnic of South Korea 5
+46,Research Center,Russia,61501223833.0,School of Denmark 30
+47,School,France,44973920631.0,Polytechnic of Switzerland 21
+48,School,China,50137228820.0,University of Arizona 7
+49,Polytechnic,Ukraine,98238575724.0,University of Namibia 42
+50,College,France,24775124616.0,Academy of Arizona 34
+51,School,Spain,36390432071.0,Institute of Denmark 27
+52,Polytechnic,Ukraine,67890093158.0,University of Ukraine 5
+53,Institute,China,55796763279.0,Academy of South Korea 17
+54,Research Center,Australia,33336870244.0,School of Australia 23
+55,Institute,Austria,12896036875.0,Research Center of Russia 20
+56,School,Denmark,64349682843.0,Institute of Canada 43
+57,Research Center,Argentina,9346203054.0,Research Center of South Africa 33
+58,Institute,UK,36260404301.0,College of Sweden 22
+59,Polytechnic,India,19201331361.0,College of Australia 5
+60,Institute,China,50769463583.0,School of Argentina 3
+61,Research Center,Ukraine,87639400862.0,School of Canada 39
+62,Academy,Australia,16225558962.0,Polytechnic of Spain 47
+63,Academy,France,41086450291.0,Research Center of Brazil 29
+64,School,South Korea,75239364120.0,Polytechnic of Arizona 15
+65,School,Brazil,30947480188.0,Polytechnic of China 13
+66,Institute,Arizona,46168536164.0,Institute of Denmark 33
+67,School,Belgium,96626849052.0,Polytechnic of Switzerland 39
+68,College,Mexico,5218928146.0,Academy of Finland 36
+69,University,Argentina,85116753642.0,Institute of Russia 49
+70,College,South Africa,44932472718.0,School of Australia 28
+71,University,India,81670508882.0,Institute of UK 27
+72,University,Austria,50201209462.0,College of Denmark 6
+73,Institute,India,2819726365.0,University of Ukraine 10
+74,College,France,28688652852.0,Polytechnic of China 45
+75,Polytechnic,Canada,75884356635.0,Academy of Arizona 40
+76,University,Russia,1901369487.0,College of Australia 36
+77,Research Center,Argentina,42326052640.0,Polytechnic of South Korea 16
+78,Institute,Italy,4775896912.0,Academy of Puerto Rico 5
+79,University,India,59674307543.0,University of Namibia 37
+80,College,Australia,29127907506.0,University of Norway 16
+81,School,Belgium,18732203866.0,Research Center of Russia 34
+82,Institute,Japan,95340414395.0,School of Namibia 33
+83,School,UK,39045982802.0,Academy of France 41
+84,Academy,Finland,25365772457.0,University of Norway 5
+85,Institute,Brazil,73294369204.0,Research Center of China 50
+86,School,Ukraine,13341825576.0,Institute of Ukraine 42
+87,College,Puerto Rico,98081937760.0,Academy of Netherlands 9
+88,University,Puerto Rico,3699342036.0,College of France 13
+89,University,Poland,93337164624.0,School of Austria 35
+90,Academy,Mexico,3663040533.0,Research Center of Switzerland 19
+91,Institute,Germany,86579961910.0,Institute of South Africa 8
+92,Polytechnic,Finland,43695701361.0,Academy of Arizona 25
+93,Institute,Netherlands,49620826450.0,Academy of Finland 34
+94,Institute,Russia,72708405353.0,University of South Africa 39
+95,Polytechnic,Netherlands,54547894260.0,Institute of China 6
+96,Institute,South Korea,30650279113.0,School of South Africa 11
+97,Research Center,Arizona,35155346830.0,University of Norway 40
+98,Academy,South Africa,63947291580.0,Polytechnic of Germany 5
+99,Research Center,Austria,36331749754.0,Polytechnic of Spain 2
+100,College,Arizona,3480861781.0,University of Brazil 50
+101,Research Center,Finland,36215696104.0,School of France 39
+102,College,Arizona,94882404103.0,Institute of Arizona 49
+103,University,Canada,52946458694.0,Academy of Poland 42
+104,Institute,Brazil,96052044706.0,University of Netherlands 32
+105,School,Denmark,91354337039.0,University of Mexico 50
+106,Institute,Arizona,21457827972.0,School of South Korea 45
+107,Academy,Switzerland,12264619553.0,Polytechnic of Japan 29
+108,College,Arizona,99726243140.0,Polytechnic of Poland 43
+109,Institute,Japan,55000164752.0,Institute of Israel 11
+110,Research Center,Netherlands,79369844688.0,School of India 8
+111,College,Canada,23674381693.0,Academy of UK 24
+112,School,Finland,46741116523.0,School of Canada 40
+113,University,Japan,30929762462.0,Research Center of China 34
+114,Academy,Belgium,82334116611.0,University of Canada 21
+115,Research Center,Japan,44997999592.0,Research Center of Argentina 23
+116,College,Netherlands,76778395954.0,College of South Africa 33
+117,Polytechnic,Germany,83139249256.0,School of Australia 20
+118,College,Spain,32266752455.0,Research Center of India 23
+119,School,South Korea,84593524682.0,Institute of Switzerland 41
+120,School,South Africa,12517904342.0,Institute of Russia 33
+121,Research Center,Spain,59181252723.0,School of Australia 11
+122,Research Center,Ukraine,84253157881.0,School of France 2
+123,University,France,94854736850.0,Polytechnic of Mexico 42
+124,College,Belgium,61811224524.0,University of India 41
+125,School,South Korea,64191087023.0,Institute of China 16
+126,Polytechnic,Austria,29744089709.0,University of Germany 11
+127,Academy,Belgium,48425628760.0,College of Ukraine 39
+128,College,Poland,86148646198.0,Institute of Norway 26
+129,College,Finland,51498498428.0,University of Poland 16
+130,Academy,Italy,26747899974.0,College of Australia 7
+131,University,South Korea,94538543885.0,Polytechnic of Belgium 16
+132,Polytechnic,Spain,81347971166.0,School of Poland 13
+133,Polytechnic,Spain,49827055940.0,School of Puerto Rico 32
+134,Institute,India,2318606645.0,Academy of Namibia 30
+135,College,Sweden,58334827854.0,University of Germany 19
+136,Academy,China,28575552396.0,University of China 28
+137,College,Mexico,72751078828.0,Polytechnic of Austria 24
+138,University,Austria,5116717581.0,School of Switzerland 24
+139,School,South Korea,7354101443.0,School of Arizona 49
+140,School,South Africa,82531306485.0,School of Italy 9
+141,University,Austria,37320460434.0,Institute of Finland 49
+142,College,Switzerland,60246692653.0,Academy of Namibia 3
+143,University,France,13704500320.0,Institute of China 34
+144,Academy,Australia,60626445980.0,School of Canada 21
+145,School,Poland,16251042086.0,School of Israel 38
+146,Institute,Namibia,82829110306.0,School of India 46
+147,School,Israel,47489785107.0,University of Finland 22
+148,Research Center,Italy,97989823220.0,School of Israel 47
+149,Polytechnic,UK,59691364686.0,Institute of India 47
+150,University,China,17052035663.0,Research Center of Denmark 10
+151,Polytechnic,Brazil,3158019764.0,Research Center of Italy 13
+152,University,Arizona,31369934652.0,College of Belgium 45
+153,College,Belgium,50182448642.0,School of China 48
+154,Research Center,Germany,70577817440.0,School of Sweden 36
+155,Institute,China,52548189663.0,Institute of Netherlands 30
+156,School,Ukraine,54627775651.0,Research Center of Mexico 40
+157,Academy,Switzerland,95733782282.0,Institute of Israel 15
+158,Institute,South Korea,70490388783.0,Research Center of India 21
+159,Academy,Norway,56049198536.0,Polytechnic of South Africa 19
+160,University,Denmark,89576150394.0,Academy of Norway 50
+161,Polytechnic,Australia,29045974747.0,Institute of Russia 23
+162,Academy,Mexico,74734102633.0,College of Switzerland 35
+163,Institute,South Africa,13728158207.0,School of Brazil 16
+164,University,Argentina,22567938957.0,College of Germany 7
+165,Academy,Ukraine,71736088267.0,University of Canada 1
+166,School,Spain,40691338247.0,Academy of China 42
+167,College,South Korea,32117449044.0,Research Center of Germany 50
+168,University,India,53515692537.0,Research Center of France 12
+169,Academy,Netherlands,93392327135.0,University of Austria 32
+170,College,South Korea,87674440049.0,University of Israel 37
+171,School,China,92845556147.0,Institute of South Korea 30
+172,Research Center,Argentina,49391748122.0,College of Namibia 30
+173,Institute,Switzerland,80881579010.0,Institute of Spain 47
+174,Academy,Mexico,71860098747.0,University of Ukraine 19
+175,School,Switzerland,17550315889.0,Polytechnic of Austria 28
+176,School,Poland,8674690247.0,Research Center of China 12
+177,College,China,32360843407.0,College of USA 17
+178,Academy,Brazil,44674105445.0,Institute of Ukraine 20
+179,School,USA,26156053528.0,Institute of Brazil 4
+180,Research Center,Italy,46540033699.0,College of Austria 44
+181,School,Israel,69029347452.0,Research Center of South Korea 24
+182,School,India,21913640965.0,College of China 10
+183,Academy,Finland,41585145698.0,School of China 49
+184,School,Sweden,76186200137.0,Research Center of Russia 34
+185,Academy,Argentina,70376908749.0,University of Italy 4
+186,Polytechnic,Namibia,20216475740.0,School of Australia 11
+187,Institute,Argentina,44184613425.0,Research Center of Sweden 46
+188,School,India,9095073504.0,School of Arizona 4
+189,Academy,Canada,51325271072.0,Academy of Germany 36
+190,Academy,Israel,72328284702.0,Academy of Mexico 1
+191,Research Center,Sweden,57831548195.0,University of South Africa 23
+192,Research Center,Japan,54116809244.0,University of Japan 31
+193,University,South Korea,40887284715.0,Polytechnic of Canada 50
+194,Research Center,Belgium,37446717603.0,Academy of Arizona 25
+195,Academy,Russia,68273352680.0,Research Center of Canada 42
+196,Polytechnic,Norway,11864198095.0,School of Austria 34
+197,College,India,83482326345.0,Polytechnic of UK 20
+198,Academy,South Africa,53193828916.0,Polytechnic of India 16
+199,Academy,Norway,15512982199.0,College of Italy 3
+200,Polytechnic,Belgium,61492705798.0,University of Brazil 14
+201,University,China,59394820804.0,Academy of Germany 16
+202,Research Center,France,40227132816.0,College of Sweden 49
+203,Polytechnic,Germany,14014417376.0,Institute of India 47
+204,School,Poland,57747903989.0,Polytechnic of Poland 16
+205,Institute,Australia,98569570377.0,School of India 27
+206,Institute,South Africa,6096702753.0,School of Netherlands 41
+207,Research Center,South Africa,55585510748.0,University of Norway 42
+208,Research Center,Denmark,78580673793.0,Institute of Belgium 27
+209,College,Israel,37646642391.0,Polytechnic of China 16
+210,Polytechnic,India,30074341143.0,Research Center of Australia 30
+211,University,Belgium,96778651068.0,School of Argentina 9
+212,Academy,Brazil,25500309565.0,Institute of Russia 29
+213,Polytechnic,Finland,9247307189.0,Research Center of Switzerland 4
+214,Institute,Denmark,67367518392.0,School of France 5
+215,College,Sweden,47939941253.0,Polytechnic of Ukraine 20
+216,University,Sweden,93716039160.0,Research Center of Italy 48
+217,Polytechnic,China,91444215236.0,Research Center of Sweden 26
+218,College,Poland,77551612692.0,Academy of Puerto Rico 35
+219,Research Center,Norway,30842920006.0,Institute of Namibia 32
+220,Academy,China,80281859365.0,Research Center of China 49
+221,Polytechnic,Poland,91433135559.0,Institute of Poland 27
+222,University,India,74125496619.0,University of Mexico 36
+223,School,Belgium,29519933558.0,College of Ukraine 15
+224,Academy,Brazil,49930648935.0,Research Center of Ukraine 17
+225,Polytechnic,India,96650860217.0,Research Center of India 30
+226,College,Norway,16927401820.0,Research Center of India 12
+227,School,Germany,52394917596.0,Polytechnic of Japan 43
+228,University,USA,41239809849.0,Polytechnic of India 5
+229,Research Center,Australia,915137028.0,School of Puerto Rico 24
+230,University,China,65928774915.0,University of USA 35
+231,School,Belgium,1186084962.0,School of South Africa 35
+232,Institute,UK,50222101009.0,Research Center of South Africa 12
+233,University,China,52439015737.0,College of Switzerland 40
+234,School,Mexico,81521623857.0,Institute of Austria 6
+235,Institute,Austria,45900315557.0,College of India 20
+236,Research Center,Russia,65373918220.0,Polytechnic of France 6
+237,Academy,Denmark,37717579679.0,Academy of Germany 41
+238,University,Spain,8269529564.0,Polytechnic of South Africa 42
+239,Polytechnic,Ukraine,56586096938.0,Polytechnic of China 34
+240,University,India,21142494171.0,Polytechnic of China 18
+241,University,Japan,68443189918.0,Institute of France 12
+242,Polytechnic,Poland,1566793861.0,College of Australia 49
+243,Polytechnic,Austria,92887565150.0,Institute of Spain 37
+244,College,Denmark,67703819553.0,School of Ukraine 25
+245,Polytechnic,Canada,79050018025.0,Research Center of Russia 33
+246,Research Center,Norway,5370589498.0,Academy of India 5
+247,Institute,Austria,96892083800.0,Institute of UK 41
+248,Institute,Arizona,49060855008.0,Institute of Denmark 28
+249,College,Denmark,8570326070.0,School of South Korea 16
+250,Research Center,Japan,8204718929.0,College of Denmark 46
+251,Polytechnic,Australia,73965789242.0,Institute of Finland 7
+252,University,USA,94296079774.0,Academy of Finland 49
+253,Institute,China,13251567942.0,College of South Africa 29
+254,School,Namibia,40805009464.0,University of Russia 23
+255,School,Russia,59692858604.0,Polytechnic of Poland 25
+256,University,South Korea,41381593167.0,Polytechnic of Russia 47
+257,School,Brazil,57196471115.0,College of Denmark 11
+258,College,South Africa,30113825406.0,Academy of Australia 5
+259,College,South Africa,27596911198.0,Institute of China 5
+260,Institute,Mexico,94422285341.0,Research Center of India 39
+261,School,Switzerland,45786705429.0,College of Israel 1
+262,Academy,Ukraine,84161497059.0,Academy of Ukraine 29
+263,Institute,South Africa,81547731525.0,Polytechnic of Canada 20
+264,Institute,Switzerland,47901495230.0,College of Austria 21
+265,Institute,India,96776340785.0,Polytechnic of Brazil 21
+266,Academy,South Africa,81649635049.0,Academy of Finland 8
+267,School,Switzerland,59223111198.0,School of Netherlands 44
+268,Polytechnic,UK,95300508144.0,Academy of Sweden 29
+269,Polytechnic,South Korea,83128349589.0,University of Belgium 44
+270,Academy,Canada,63333970629.0,College of Mexico 43
+271,College,South Africa,78907887245.0,University of Arizona 39
+272,Academy,Austria,53437205753.0,Polytechnic of Belgium 35
+273,University,Finland,70163727071.0,Polytechnic of Russia 7
+274,Polytechnic,Brazil,65760506856.0,Institute of Spain 42
+275,School,France,56322466000.0,Research Center of Austria 49
+276,Institute,South Africa,10595349216.0,University of Mexico 15
+277,School,Argentina,55799783641.0,Research Center of India 29
+278,Institute,Austria,46306857792.0,Research Center of Namibia 10
+279,Institute,UK,48277625678.0,Institute of Belgium 6
+280,University,Australia,34833516903.0,Institute of Puerto Rico 14
+281,School,China,34830681363.0,University of Arizona 47
+282,Research Center,Arizona,31891628512.0,Institute of France 46
+283,University,UK,84918151625.0,Research Center of China 44
+284,Polytechnic,Spain,92992314726.0,Research Center of Brazil 34
+285,College,Spain,33099634566.0,Academy of Puerto Rico 15
+286,Polytechnic,Austria,62976402128.0,College of South Africa 26
+287,University,Switzerland,44958051562.0,Academy of Denmark 1
+288,Research Center,Sweden,20579242152.0,Polytechnic of Japan 37
+289,University,Netherlands,36579937148.0,College of Puerto Rico 8
+290,Institute,India,52771974248.0,Research Center of Poland 39
+291,Academy,Austria,58700884452.0,Institute of Norway 30
+292,School,Netherlands,81374011688.0,Research Center of Israel 40
+293,School,Russia,67211336062.0,Institute of Italy 16
+294,Institute,Italy,18305268789.0,Research Center of Australia 33
+295,Academy,Belgium,59642985319.0,School of Denmark 28
+296,College,India,63550528704.0,Research Center of Netherlands 36
+297,College,India,28884188570.0,College of Poland 29
+298,School,Germany,86552357563.0,University of India 9
+299,College,Denmark,96382945112.0,School of India 27
+300,Research Center,India,41563627897.0,Polytechnic of Arizona 32
+301,College,Russia,56540214527.0,Polytechnic of India 19
+302,University,South Africa,22485116821.0,Institute of Spain 50
+303,Academy,India,54973068728.0,University of Italy 18
+304,Polytechnic,Finland,54204795868.0,Polytechnic of France 49
+305,Research Center,Arizona,54635781119.0,Academy of China 48
+306,Polytechnic,Brazil,29771595801.0,University of Arizona 17
+307,Institute,Russia,43907551268.0,University of Brazil 14
+308,Polytechnic,Norway,86105008578.0,School of South Africa 11
+309,School,Canada,78485146148.0,Polytechnic of Sweden 4
+310,School,Norway,53228547456.0,School of Spain 21
+311,Research Center,South Korea,28934035013.0,Institute of Namibia 44
+312,Polytechnic,China,13559755054.0,Polytechnic of Belgium 4
+313,Institute,Canada,70142951313.0,College of Brazil 10
+314,Research Center,Poland,82848351788.0,Polytechnic of Austria 32
+315,College,South Africa,62781654265.0,Academy of Arizona 5
+316,Research Center,Russia,40285674479.0,Research Center of South Africa 45
+317,Institute,Puerto Rico,95025457632.0,Institute of USA 50
+318,Polytechnic,Russia,73093462817.0,Academy of Norway 5
+319,Polytechnic,Austria,21783775672.0,Academy of Sweden 32
+320,Institute,Poland,82834533361.0,Institute of Canada 37
+321,Polytechnic,India,78830577044.0,Research Center of Germany 3
+322,University,Puerto Rico,1629118956.0,Polytechnic of Spain 29
+323,Academy,USA,99183832044.0,Academy of Switzerland 45
+324,College,Israel,15898587313.0,Institute of Russia 42
+325,Institute,Mexico,8242970650.0,Research Center of Spain 4
+326,Academy,Israel,72599110359.0,Polytechnic of India 28
+327,Research Center,Russia,70370100278.0,University of Sweden 31
+328,University,Canada,59368356005.0,School of Arizona 1
+329,University,Ukraine,81711085582.0,Polytechnic of South Africa 45
+330,College,China,7083759712.0,Academy of Russia 47
+331,Polytechnic,China,10321050119.0,Institute of Israel 9
+332,Academy,Canada,64157973276.0,Research Center of Australia 5
+333,School,USA,61032313608.0,College of Arizona 23
+334,Research Center,Sweden,62808375754.0,College of Belgium 40
+335,Research Center,Arizona,85996392498.0,University of China 9
+336,Polytechnic,Italy,58957802202.0,Academy of Norway 28
+337,Institute,Canada,24779389710.0,Research Center of Russia 16
+338,School,South Korea,77897186282.0,Research Center of UK 43
+339,Institute,Sweden,51775395031.0,School of Switzerland 48
+340,Academy,South Korea,64617331294.0,Polytechnic of Brazil 32
+341,Academy,Italy,24108934479.0,Research Center of Japan 34
+342,University,Finland,93392506243.0,College of Denmark 37
+343,Academy,Finland,54636075760.0,College of China 50
+344,University,UK,58736762329.0,University of Mexico 14
+345,University,Germany,94868051015.0,Academy of Namibia 19
+346,Research Center,Namibia,76711232957.0,Academy of Austria 6
+347,Research Center,Australia,27747496106.0,Institute of Russia 33
+348,College,Australia,53639480899.0,Academy of Japan 20
+349,Research Center,South Africa,72996107785.0,Polytechnic of Brazil 4
+350,College,Russia,92462850807.0,University of Puerto Rico 40
+351,School,Germany,30929697097.0,Research Center of Netherlands 8
+352,University,Canada,70150259623.0,College of India 23
+353,School,Argentina,78298927167.0,Research Center of Mexico 11
+354,Institute,Canada,74977888633.0,Polytechnic of South Africa 47
+355,University,UK,33501767621.0,Academy of South Africa 34
+356,University,Mexico,71232612497.0,School of Japan 32
+357,Academy,Namibia,36013029428.0,Academy of Spain 24
+358,College,Mexico,77333121997.0,School of Italy 15
+359,Research Center,Namibia,257848035.0,Polytechnic of USA 16
+360,University,China,36398285657.0,College of Netherlands 3
+361,School,Belgium,22452306866.0,College of Belgium 47
+362,Institute,South Africa,82599873558.0,School of Finland 8
+363,School,Germany,17935255683.0,Polytechnic of Argentina 3
+364,Academy,Japan,87699246827.0,Polytechnic of South Korea 50
+365,Polytechnic,Israel,32730764872.0,School of Puerto Rico 1
+366,Institute,Switzerland,29160217471.0,Polytechnic of Israel 48
+367,School,Brazil,46393205131.0,School of India 50
+368,Polytechnic,Switzerland,73246601211.0,School of Brazil 10
+369,University,Belgium,2392001687.0,School of Norway 41
+370,Polytechnic,USA,95099075224.0,University of Denmark 48
+371,Research Center,Israel,10395797986.0,School of Brazil 27
+372,Academy,Germany,97255951038.0,College of South Africa 6
+373,University,India,89728849906.0,School of Belgium 45
+374,Institute,Puerto Rico,97455504462.0,University of China 33
+375,College,Austria,7483973603.0,School of Germany 28
+376,Research Center,Canada,23677936702.0,Institute of Poland 26
+377,Research Center,Poland,31806453869.0,Institute of India 5
+378,College,Canada,77993918310.0,School of China 10
+379,University,Spain,44957225207.0,Institute of Belgium 8
+380,School,Norway,96463507590.0,College of Arizona 20
+381,Academy,Mexico,85248366084.0,University of Spain 44
+382,Institute,France,21502863927.0,Polytechnic of Poland 10
+383,University,Brazil,96840032018.0,Academy of Namibia 4
+384,Research Center,Israel,26017419105.0,College of UK 26
+385,Polytechnic,Arizona,55595820201.0,School of Brazil 7
+386,Academy,China,80389871448.0,College of Italy 1
+387,University,India,13072393039.0,Polytechnic of Austria 24
+388,Research Center,Russia,58232797818.0,Institute of Japan 2
+389,University,Switzerland,90249705697.0,Academy of Canada 6
+390,Polytechnic,Ukraine,12253643398.0,Academy of Germany 11
+391,School,South Africa,82168718468.0,Academy of India 2
+392,Academy,South Africa,17281548376.0,College of Netherlands 18
+393,Institute,Arizona,88342496466.0,University of Brazil 42
+394,Institute,India,41199808637.0,School of China 4
+395,University,South Africa,38302144587.0,Academy of Switzerland 42
+396,Polytechnic,Argentina,24915526366.0,Polytechnic of UK 25
+397,Polytechnic,Norway,47968964204.0,Polytechnic of India 23
+398,School,Namibia,32161120262.0,Institute of Netherlands 2
+399,Institute,India,2931316750.0,Polytechnic of South Africa 4
+400,Polytechnic,China,52943699764.0,Polytechnic of India 11
+401,University,Brazil,65686785273.0,Institute of Germany 49
+402,College,Denmark,35481108652.0,Polytechnic of Netherlands 12
+403,College,Poland,80621216326.0,Research Center of Norway 38
+404,University,Norway,94755925948.0,School of Australia 37
+405,College,India,54212918027.0,College of India 3
+406,University,Germany,23263103185.0,College of UK 34
+407,Academy,USA,33174067623.0,School of Switzerland 9
+408,Institute,Netherlands,91878159950.0,Polytechnic of Poland 4
+409,University,Australia,58661330900.0,College of Italy 34
+410,Polytechnic,Finland,96055914469.0,Institute of Austria 38
+411,University,Ukraine,30177213607.0,College of Spain 47
+412,Academy,India,64918377384.0,College of Norway 15
+413,Research Center,Netherlands,37839032431.0,Research Center of South Korea 9
+414,College,USA,94878861634.0,School of Austria 50
+415,School,France,18208993520.0,Institute of India 41
+416,School,China,93668842668.0,College of Ukraine 48
+417,University,Brazil,34681665658.0,Institute of Spain 41
+418,University,Ukraine,44663546780.0,Institute of Sweden 16
+419,Research Center,Japan,35048765709.0,Polytechnic of China 47
+420,University,Germany,38594323858.0,Research Center of Belgium 11
+421,Academy,India,88177184063.0,Institute of Denmark 7
+422,Polytechnic,China,78873210718.0,School of India 11
+423,Academy,Japan,79919657381.0,University of South Korea 2
+424,Institute,Mexico,95166261481.0,University of Ukraine 11
+425,Academy,Spain,73198776542.0,School of Russia 22
+426,School,China,70450760155.0,Academy of Spain 39
+427,Academy,Spain,5356520710.0,Institute of Sweden 13
+428,Academy,Mexico,66060128673.0,Institute of Brazil 7
+429,University,Austria,57177409016.0,Polytechnic of India 10
+430,University,Finland,382553401.0,University of South Korea 43
+431,Research Center,China,19968280401.0,University of Sweden 11
+432,Research Center,South Korea,97705792542.0,Academy of Italy 20
+433,Polytechnic,Austria,47094974351.0,Research Center of Mexico 6
+434,Research Center,Denmark,18488937173.0,Academy of Finland 12
+435,Academy,France,26330333372.0,Academy of Mexico 15
+436,Polytechnic,South Africa,56425094545.0,College of China 6
+437,Research Center,Norway,80818207560.0,Academy of India 36
+438,University,Denmark,81840703081.0,Academy of China 37
+439,College,China,29885912049.0,Academy of France 33
+440,School,Argentina,80045233222.0,Research Center of Australia 8
+441,Polytechnic,Arizona,17288724402.0,College of Sweden 13
+442,College,France,42338066557.0,Research Center of South Africa 13
+443,Polytechnic,Australia,83410977759.0,Institute of Poland 47
+444,Polytechnic,Japan,8703657060.0,School of Austria 36
+445,Institute,South Africa,51969298066.0,Polytechnic of USA 45
+446,School,Argentina,78168784407.0,University of Belgium 10
+447,College,China,92492891748.0,School of China 19
+448,Polytechnic,Norway,87789478376.0,Institute of Denmark 42
+449,Academy,China,3747529584.0,Institute of Austria 10
+450,School,Austria,3879214466.0,Institute of Brazil 4
+451,Research Center,China,92083577456.0,Institute of UK 22
+452,Polytechnic,Israel,31095618835.0,Polytechnic of India 45
+453,Research Center,China,97249691772.0,College of Canada 20
+454,Research Center,Arizona,77403315988.0,Institute of South Africa 47
+455,Academy,Russia,18794381154.0,College of Belgium 48
+456,Academy,Argentina,86719029866.0,Polytechnic of Germany 33
+457,Polytechnic,Spain,6562631144.0,Research Center of Namibia 26
+458,College,Argentina,87933379803.0,University of Netherlands 13
+459,Polytechnic,Switzerland,83697830784.0,College of France 30
+460,University,Finland,70463689888.0,Institute of Finland 30
+461,School,Austria,63541345498.0,University of UK 16
+462,Institute,India,59404765302.0,College of China 38
+463,School,Norway,34425556136.0,Polytechnic of Mexico 48
+464,Polytechnic,Russia,28507652574.0,Academy of Germany 11
+465,Polytechnic,Sweden,85711261633.0,Research Center of India 44
+466,College,South Africa,65159081698.0,School of UK 50
+467,Polytechnic,USA,47410246556.0,College of Netherlands 39
+468,Polytechnic,USA,22377779402.0,School of Israel 46
+469,Research Center,South Africa,42381256259.0,Academy of Norway 30
+470,Institute,Sweden,46670334852.0,Research Center of Argentina 40
+471,Academy,China,735749920.0,Research Center of Finland 36
+472,Research Center,South Korea,29848294149.0,University of China 5
+473,Institute,South Africa,64059833967.0,Polytechnic of South Africa 17
+474,Research Center,Israel,18836819764.0,School of Brazil 4
+475,Polytechnic,Austria,66053371838.0,Research Center of Canada 47
+476,University,India,99746912489.0,Institute of Belgium 26
+477,Academy,France,58302787218.0,School of Switzerland 22
+478,Research Center,India,68632124775.0,Research Center of China 43
+479,Institute,Namibia,30020182660.0,College of Netherlands 19
+480,University,China,12795286025.0,Institute of Netherlands 44
+481,Institute,Russia,22226128898.0,College of Israel 27
+482,Polytechnic,Ukraine,37168871294.0,School of South Korea 30
+483,Polytechnic,Italy,47054186231.0,Polytechnic of Japan 31
+484,College,Namibia,11982473903.0,Research Center of Denmark 34
+485,Institute,Belgium,5407143002.0,Polytechnic of Australia 9
+486,College,Ukraine,40919775483.0,School of Puerto Rico 10
+487,Institute,Netherlands,77894338802.0,Academy of Ukraine 41
+488,College,Poland,63450262416.0,University of Arizona 18
+489,College,Spain,57628315295.0,College of India 49
+490,Polytechnic,Russia,12941466351.0,Academy of South Africa 26
+491,Academy,China,38332258689.0,University of Switzerland 47
+492,Institute,USA,89200747213.0,Polytechnic of Argentina 13
+493,University,USA,62669066180.0,College of India 45
+494,Institute,Israel,12893951112.0,Academy of Namibia 38
+495,Institute,Spain,6529636960.0,University of Israel 19
+496,Academy,Argentina,59637395492.0,Institute of South Africa 44
+497,College,Ukraine,99613895330.0,Academy of Norway 49
+498,College,Spain,94808487286.0,Polytechnic of Austria 2
+499,College,India,72717155645.0,College of Sweden 47
+500,University,Namibia,16899305204.0,Institute of France 25
