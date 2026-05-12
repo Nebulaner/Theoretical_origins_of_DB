@@ -363,19 +363,26 @@ def generate_telescopes(conn, count: int, research_ids: list, catalog_ids: list)
 def generate_objects(conn, count: int, catalog_ids: list):
     print(f"  Generating space objects ({count:,} records)...")
     data = []
+    used_names = set()
+    
     for _ in range(count):
         obj_type = random.choice(OBJECT_TYPES)
-        obj_name = f"{random.choice(OBJECT_NAMES)}_{random.randint(1, 100000)}"
-        if len(obj_name) > 30:
-            obj_name = obj_name[:30]
-            
-        obj = (random.choice(catalog_ids), obj_type,
+        
+        while True:
+            obj_name = f"{random.choice(OBJECT_NAMES)}_{random.randint(1, 100000)}"
+            if len(obj_name) > 30:
+                obj_name = obj_name[:30]
+            if obj_name not in used_names:
+                used_names.add(obj_name)
+                break
+        
+        obj = (obj_name, random.choice(catalog_ids), obj_type,
               round(random.uniform(-90, 90), 4), round(random.uniform(0.01, 120), 2),
-              round(random.uniform(-30, 20), 2), obj_name)
+              round(random.uniform(-30, 20), 2))
         data.append(obj)
     
     with conn.cursor() as cur:
-        extras.execute_values(cur, "INSERT INTO Object (ID_Catalog, Type, Declension, Size, Magnitude, Object) VALUES %s", data, page_size=5000)
+        extras.execute_values(cur, "INSERT INTO Object (Object, ID_Catalog, Type, Declension, Size, Magnitude) VALUES %s", data, page_size=5000)
     conn.commit()
 
 def main():
