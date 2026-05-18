@@ -2,7 +2,7 @@ import random
 import psycopg2
 from psycopg2 import sql, extras
 from faker import Faker
-from typing import Dict, List, Any, Set
+from typing import Dict, List, Any, Set, Tuple
 from datetime import datetime, timedelta
 import os
 import sys
@@ -82,31 +82,21 @@ LAST_NAMES = [
     "Turner", "Torres", "Parker", "Collins", "Edwards", "Stewart", "Flores", "Morris"
 ]
 
-def generate_unique_names(count: int, existing_names: Set[str] = None) -> List[str]:
-    if existing_names is None:
-        existing_names = set()
-    
+def generate_unique_names(count: int) -> List[str]:
     unique_names = []
-    attempts = 0
-    max_attempts = count * 10
+    used_names = set()
     
-    while len(unique_names) < count and attempts < max_attempts:
+    while len(unique_names) < count:
         first = random.choice(FIRST_NAMES)
         last = random.choice(LAST_NAMES)
+        
         if count > 5000:
             name = f"{first} {last} {len(unique_names) + 1}"
         else:
             name = f"{first} {last}"
         
-        if name not in existing_names:
-            existing_names.add(name)
-            unique_names.append(name)
-        attempts += 1
-    
-    while len(unique_names) < count:
-        name = f"Person_{len(unique_names) + 1}"
-        if name not in existing_names:
-            existing_names.add(name)
+        if name not in used_names:
+            used_names.add(name)
             unique_names.append(name)
     
     return unique_names
@@ -125,11 +115,6 @@ def create_connection():
         return conn
     except psycopg2.Error as e:
         print(f"Database error: {e}")
-        print("\nCheck:")
-        print("1. Is PostgreSQL server running?")
-        print("2. Correct parameters in DB_CONFIG?")
-        print("3. Does database 'astronomy_db' exist?")
-        print("4. Correct password?")
         raise
 
 def init_database():
@@ -166,8 +151,16 @@ def create_schema(conn):
         cur.execute("CREATE SCHEMA IF NOT EXISTS Astronomy")
         cur.execute("SET search_path TO Astronomy")
         
+        cur.execute("DROP TABLE IF EXISTS Object CASCADE")
+        cur.execute("DROP TABLE IF EXISTS Automatic_telescope CASCADE")
+        cur.execute("DROP TABLE IF EXISTS Amateur_astronomer CASCADE")
+        cur.execute("DROP TABLE IF EXISTS Scientist CASCADE")
+        cur.execute("DROP TABLE IF EXISTS Research_organisation CASCADE")
+        cur.execute("DROP TABLE IF EXISTS Educational_institution CASCADE")
+        cur.execute("DROP TABLE IF EXISTS Catalog CASCADE")
+        
         cur.execute("""
-            CREATE TABLE IF NOT EXISTS Catalog (
+            CREATE TABLE Catalog (
                 ID_Catalog DECIMAL PRIMARY KEY,
                 Count DECIMAL NOT NULL,
                 CatalogName VARCHAR(100) NOT NULL
@@ -175,7 +168,7 @@ def create_schema(conn):
         """)
         
         cur.execute("""
-            CREATE TABLE IF NOT EXISTS Educational_institution (
+            CREATE TABLE Educational_institution (
                 ID_Organisation DECIMAL PRIMARY KEY,
                 Type VARCHAR(20) NOT NULL,
                 Country VARCHAR(48) NOT NULL,
@@ -185,7 +178,7 @@ def create_schema(conn):
         """)
         
         cur.execute("""
-            CREATE TABLE IF NOT EXISTS Research_organisation (
+            CREATE TABLE Research_organisation (
                 ID_Organisation VARCHAR(100) PRIMARY KEY,
                 Type VARCHAR(15) NOT NULL,
                 Country VARCHAR(48) NOT NULL,
@@ -195,63 +188,54 @@ def create_schema(conn):
         """)
         
         cur.execute("""
-            CREATE TABLE IF NOT EXISTS Scientist (
-                Person VARCHAR(55) PRIMARY KEY,
+            CREATE TABLE Scientist (
+                Person VARCHAR(55) NOT NULL,
                 Country VARCHAR(48) NOT NULL,
                 Proffesion VARCHAR(20) NOT NULL,
                 Graduate VARCHAR(20) NOT NULL,
                 ID_Organisation DECIMAL NOT NULL,
-                ID_Catalog DECIMAL NOT NULL
+                ID_Catalog DECIMAL NOT NULL,
+                PRIMARY KEY (Person, ID_Organisation, ID_Catalog)
             )
         """)
         
         cur.execute("""
-            CREATE TABLE IF NOT EXISTS Amateur_astronomer (
-                Person VARCHAR(55) PRIMARY KEY,
+            CREATE TABLE Amateur_astronomer (
+                Person VARCHAR(55) NOT NULL,
                 Country VARCHAR(48) NOT NULL,
                 Age VARCHAR(3) NOT NULL,
                 ID_Organisation DECIMAL NOT NULL,
-                ID_Catalog DECIMAL NOT NULL
+                ID_Catalog DECIMAL NOT NULL,
+                PRIMARY KEY (Person, ID_Organisation, ID_Catalog)
             )
         """)
         
         cur.execute("""
-            CREATE TABLE IF NOT EXISTS Automatic_telescope (
-                Telescope VARCHAR(32) PRIMARY KEY,
+            CREATE TABLE Automatic_telescope (
+                Telescope VARCHAR(32) NOT NULL,
                 Type VARCHAR(32) NOT NULL,
                 ID_Organisation VARCHAR(100) NOT NULL,
                 Year DECIMAL NOT NULL,
                 Spot VARCHAR(40) NOT NULL,
-                ID_Catalog DECIMAL NOT NULL
+                ID_Catalog DECIMAL NOT NULL,
+                PRIMARY KEY (Telescope, ID_Organisation, ID_Catalog)
             )
         """)
         
         cur.execute("""
-            CREATE TABLE IF NOT EXISTS Object (
+            CREATE TABLE Object (
+                ObjectName VARCHAR(30) NOT NULL,
                 ID_Catalog DECIMAL NOT NULL,
                 Type VARCHAR(20) NOT NULL,
                 Declension DECIMAL NOT NULL,
                 Size DECIMAL NOT NULL,
                 Magnitude DECIMAL NOT NULL,
-                Object VARCHAR(30) NOT NULL
+                PRIMARY KEY (ObjectName, ID_Catalog)
             )
         """)
         
         conn.commit()
         print("Schema and tables created")
-
-def clear_tables(conn):
-    with conn.cursor() as cur:
-        cur.execute("SET search_path TO Astronomy")
-        cur.execute("TRUNCATE TABLE Object CASCADE")
-        cur.execute("TRUNCATE TABLE Automatic_telescope CASCADE")
-        cur.execute("TRUNCATE TABLE Amateur_astronomer CASCADE")
-        cur.execute("TRUNCATE TABLE Scientist CASCADE")
-        cur.execute("TRUNCATE TABLE Research_organisation CASCADE")
-        cur.execute("TRUNCATE TABLE Educational_institution CASCADE")
-        cur.execute("TRUNCATE TABLE Catalog CASCADE")
-        conn.commit()
-        print("Tables cleared")
 
 def generate_catalogs(conn, count: int):
     print(f"  Generating catalogs ({count} records)...")
@@ -316,33 +300,51 @@ def generate_scientists(conn, count: int, edu_ids: list, catalog_ids: list):
     conn.commit()
     print(f"    Generated {len(data)} unique scientists")
 
+    
 def generate_amateurs(conn, count: int, edu_ids: list, catalog_ids: list):
-    print(f"  Generating amateur astronomers ({count} records)...")
+    print(f"  Generating amateur astronomers ({count} records) with multiple connections...")
     
     unique_names = generate_unique_names(count)
     
     data = []
-    for i in range(count):
-        amateur = (unique_names[i], random.choice(COUNTRIES), str(random.randint(16, 85)),
-                  random.choice(edu_ids), random.choice(catalog_ids))
-        data.append(amateur)
+    used_keys = set()
+    
+    for person in unique_names:
+        country = random.choice(COUNTRIES)
+        age = str(random.randint(16, 85))
+        
+        num_edu_connections = random.randint(1, 5)
+        num_catalog_connections = random.randint(1, 10)
+        
+        selected_edu = random.sample(edu_ids, min(num_edu_connections, len(edu_ids)))
+        selected_catalog = random.sample(catalog_ids, min(num_catalog_connections, len(catalog_ids)))
+        
+        for edu_id in selected_edu:
+            for cat_id in selected_catalog:
+                key = (person, edu_id, cat_id)
+                if key not in used_keys:
+                    used_keys.add(key)
+                    amateur = (person, country, age, edu_id, cat_id)
+                    data.append(amateur)
     
     with conn.cursor() as cur:
         extras.execute_values(cur, "INSERT INTO Amateur_astronomer (Person, Country, Age, ID_Organisation, ID_Catalog) VALUES %s", data, page_size=1000)
     conn.commit()
-    print(f"    Generated {len(data)} unique amateur astronomers")
+    print(f"    Generated {len(unique_names)} unique amateurs with {len(data)} records")
 
 def generate_telescopes(conn, count: int, research_ids: list, catalog_ids: list):
-    print(f"  Generating telescopes ({count} records)...")
+    print(f"  Generating telescopes ({count} records) with multiple connections...")
     data = []
     telescope_names = ["Hubble", "Webb", "Keck", "VLT", "ALMA", "Chandra", "Fermi", "FAST", "Gemini", "Subaru"]
     
-    used_names = set()
-    for i in range(count):
+    used_telescopes = set()
+    used_keys = set()
+    
+    for _ in range(count):
         while True:
             tel_name = f"{random.choice(telescope_names)}-{random.randint(1, 9999)}"
-            if tel_name not in used_names:
-                used_names.add(tel_name)
+            if tel_name not in used_telescopes:
+                used_telescopes.add(tel_name)
                 break
         
         tel_type = random.choice(TELESCOPE_TYPES)
@@ -351,19 +353,32 @@ def generate_telescopes(conn, count: int, research_ids: list, catalog_ids: list)
         spot = random.choice(TELESCOPE_SPOTS)
         if len(spot) > 40:
             spot = spot[:40]
-            
-        telescope = (tel_name, tel_type, random.choice(research_ids), 
-                    random.randint(1950, 2025), spot, random.choice(catalog_ids))
-        data.append(telescope)
+        year = random.randint(1950, 2025)
+        
+        num_res_connections = random.randint(1, 5)
+        num_catalog_connections = random.randint(1, 10)
+        
+        selected_res = random.sample(research_ids, min(num_res_connections, len(research_ids)))
+        selected_catalog = random.sample(catalog_ids, min(num_catalog_connections, len(catalog_ids)))
+        
+        for res_id in selected_res:
+            for cat_id in selected_catalog:
+                key = (tel_name, res_id, cat_id)
+                if key not in used_keys:
+                    used_keys.add(key)
+                    telescope = (tel_name, tel_type, res_id, year, spot, cat_id)
+                    data.append(telescope)
     
     with conn.cursor() as cur:
         extras.execute_values(cur, "INSERT INTO Automatic_telescope (Telescope, Type, ID_Organisation, Year, Spot, ID_Catalog) VALUES %s", data)
     conn.commit()
+    print(f"    Generated {len(used_telescopes)} unique telescopes with {len(data)} records")
 
 def generate_objects(conn, count: int, catalog_ids: list):
-    print(f"  Generating space objects ({count:,} records)...")
+    print(f"  Generating space objects ({count:,} records) with multiple connections...")
     data = []
     used_names = set()
+    used_keys = set()
     
     for _ in range(count):
         obj_type = random.choice(OBJECT_TYPES)
@@ -376,14 +391,22 @@ def generate_objects(conn, count: int, catalog_ids: list):
                 used_names.add(obj_name)
                 break
         
-        obj = (obj_name, random.choice(catalog_ids), obj_type,
-              round(random.uniform(-90, 90), 4), round(random.uniform(0.01, 120), 2),
-              round(random.uniform(-30, 20), 2))
-        data.append(obj)
+        num_catalog_connections = random.randint(1, 5)
+        selected_catalog = random.sample(catalog_ids, min(num_catalog_connections, len(catalog_ids)))
+        
+        for cat_id in selected_catalog:
+            key = (obj_name, cat_id)
+            if key not in used_keys:
+                used_keys.add(key)
+                obj = (obj_name, cat_id, obj_type,
+                      round(random.uniform(-90, 90), 4), round(random.uniform(0.01, 120), 2),
+                      round(random.uniform(-30, 20), 2))
+                data.append(obj)
     
     with conn.cursor() as cur:
-        extras.execute_values(cur, "INSERT INTO Object (Object, ID_Catalog, Type, Declension, Size, Magnitude) VALUES %s", data, page_size=5000)
+        extras.execute_values(cur, "INSERT INTO Object (ObjectName, ID_Catalog, Type, Declension, Size, Magnitude) VALUES %s", data, page_size=5000)
     conn.commit()
+    print(f"    Generated {len(used_names)} unique objects with {len(data)} records")
 
 def main():
     print("=" * 70)
@@ -394,10 +417,10 @@ def main():
         "catalogs": 500,
         "edu_institutions": 500,
         "research_orgs": 200,
-        "scientists": 5000,
-        "amateurs": 10000,
+        "scientists": 500,
+        "amateurs": 100,
         "telescopes": 500,
-        "objects": 200000
+        "objects": 2000
     }
     
     try:
@@ -411,9 +434,6 @@ def main():
         
         print("\nCreating database structure...")
         create_schema(conn)
-        
-        print("\nClearing existing data...")
-        clear_tables(conn)
         
         print("\nGenerating data:\n")
         
@@ -433,15 +453,6 @@ def main():
         print("\n" + "=" * 70)
         print("DATA GENERATION COMPLETED SUCCESSFULLY!")
         print("=" * 70)
-        print(f"\nStatistics:")
-        print(f"  Catalogs: {counts['catalogs']:,}")
-        print(f"  Educational institutions: {counts['edu_institutions']:,}")
-        print(f"  Research organisations: {counts['research_orgs']:,}")
-        print(f"  Scientists: {counts['scientists']:,}")
-        print(f"  Amateur astronomers: {counts['amateurs']:,}")
-        print(f"  Telescopes: {counts['telescopes']:,}")
-        print(f"  Space objects: {counts['objects']:,}")
-        print(f"  TOTAL: {sum(counts.values()):,}")
         
     except Exception as e:
         print(f"\nError: {e}")
